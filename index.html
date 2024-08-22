@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <body>
+    <main class="mt-32 flex flex-col flex-wrap justify-center items-center px-8">
+      <div class="inline-block">
+        <h1
+          class="text-white bg-nwoods-primary font-bold !leading-[calc(var(--topnav-h)_-_1px)] my-0 p-4 px-6 text-6xl logo">
+          GoJS
+        </h1>
+      </div>
+
+      <div class="max-w-2xl prose">
+        <h2 class="text-4xl">
+          The JavaScript and TypeScript Library for Building Interactive Diagramming Apps
+        </h2>
+        <p>
+          GoJS is a library for creating interactive diagrams, including data
+          visualizations, drawing tools, graph editors, industrial system monitors, and
+          SCADA style controllers. GoJS is used worldwide, in nearly every industry.
+        </p>
+
+        <div
+          class="mt-6 grid grid-cols-2 gap-y-10 gap-x-3 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-6">
+          <!-- org charts -->
+          <div
+            class="group relative before:absolute before:rounded-lg before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+            <div class="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
+              <img
+                src="./assets/images/screenshots/orgChartEditor.png"
+                alt="An organizational chart that allows user editing and re-organizing of the hierarchy."
+                class="absolute inset-0 h-full w-full" />
+            </div>
+            <div class="mt-4">
+              <h4 class="mt-4">
+                <a
+                  href="https://gojs.net/latest/samples/orgChartEditor.html"
+                  class="!border-0 hover:no-underline">
+                  <span class="absolute -inset-2.5 z-10"></span>
+                  <span
+                    class="relative text-lg font-semibold leading-7 text-gray-900 group-hover:text-nwoods-accent">
+                    Interactive Org Charts
+                  </span>
+                </a>
+              </h4>
+            </div>
+          </div>
+
+          <!-- org charts -->
+          <div
+            class="group relative before:absolute before:rounded-lg before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+            <div class="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
+              <img
+                src="./assets/images/screenshots/security.png"
+                alt="Example of what a security dashboard made in GoJS might look like. With live video feeds and swipe access doors."
+                class="absolute inset-0 h-full w-full" />
+            </div>
+            <div class="mt-4">
+              <h4 class="mt-4">
+                <a
+                  href="https://gojs.net/latest/samples/security.html"
+                  class="!border-0 hover:no-underline">
+                  <span class="absolute -inset-2.5 z-10"></span>
+                  <span
+                    class="relative text-lg font-semibold leading-7 text-gray-900 group-hover:text-nwoods-accent">
+                    Security Monitors and Designers
+                  </span>
+                </a>
+              </h4>
+            </div>
+          </div>
+
+          <!-- genogram -->
+          <div
+            class="group relative before:absolute before:rounded-lg before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+            <div class="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
+              <img
+                src="./assets/images/screenshots/genogram.png"
+                alt="A genogram or pedigree chart is an extended family tree diagram that show information about each person or each relationship."
+                class="absolute inset-0 h-full w-full" />
+            </div>
+            <div class="mt-4">
+              <h4 class="mt-4">
+                <a
+                  href="https://gojs.net/latest/samples/genogram.html"
+                  class="!border-0 hover:no-underline">
+                  <span class="absolute -inset-2.5 z-10"></span>
+                  <span
+                    class="relative text-lg font-semibold leading-7 text-gray-900 group-hover:text-nwoods-accent">
+                    Complex Family Trees and Genograms
+                  </span>
+                </a>
+              </h4>
+            </div>
+          </div>
+
+          <!-- industrial -->
+          <div
+            class="group relative before:absolute before:rounded-lg before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+            <div class="relative aspect-square overflow-hidden rounded-lg bg-gray-100">
+              <img
+                src="./assets/images/screenshots/industrialMonitor.png"
+                alt="Example of an industrial monitoring diagram with updating data.."
+                class="absolute inset-0 h-full w-full" />
+            </div>
+            <div class="mt-4">
+              <h4 class="mt-4">
+                <a
+                  href="https://gojs.net/latest/samples/industrialMonitor.html"
+                  class="!border-0 hover:no-underline">
+                  <span class="absolute -inset-2.5 z-10"></span>
+                  <span
+                    class="relative text-lg font-semibold leading-7 text-gray-900 group-hover:text-nwoods-accent">
+                    SCADA Industrial Monitors and Controls
+                  </span>
+                </a>
+              </h4>
+            </div>
+          </div>
+          <!-- end all samples -->
+        </div>
+
+        <hr />
+
+        <h3><a href="https://gojs.net/latest/learn/">Getting Started with GoJS</a></h3>
+        <p>
+          <a href="https://gojs.net/latest/samples/">See all samples on gojs.net</a>
+        </p>
+        <p>
+          <a href="https://www.npmjs.com/package/gojs">gojs on npm</a>
+        </p>
+
+        <hr />
+
+        <p>GoJS can be installed and used via npm:</p>
+        <p>
+          <code>$ npm i gojs</code>
+        </p>
+        <p>You can also download a copy of all samples and documentation:</p>
+        <p>
+          <code>$ npm create gojs-kit</code>
+        </p>
+
+        <hr />
+        <div>
+          <div class="max-w-3xl">
+            <h3>GoJS can be used alongside all modern frameworks</h3>
+
+            <p class="mt-6">
+              With no dependencies, you can use GoJS anywhere. Leverage it in React, Vue,
+              Angular, or Svelte apps, or in your Node or Electron apps.
+            </p>
+          </div>
+          <div class="mt-6 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2">
+              <a class="relative pl-16 flex flex-col" href="./intro/react.html">
+                <div class="text-lg font-semibold leading-7">
+                  <div
+                    class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center">
+                    <img
+                      class="w-full h-full"
+                      alt="react"
+                      src="assets/images/fp/react-icon.svg" />
+                  </div>
+                  React
+                </div>
+                <div class="mt-2 flex flex-col flex-auto">
+                  <p class="flex-auto font-normal">
+                    Use <strong>gojs-react</strong>, our companion component library, to
+                    simplify your GoJS React integration.
+                  </p>
+                  <p
+                    class="flex items-center -ml-3.5 px-3.5 py-2.5 text-sm font-semibold leading-6 text-nwoods-accent hover:text-nwoods-accentHover">
+                    Learn more
+                    <svg
+                      class="w-3 h-3 ml-1.5"
+                      aria-hidden="true"
+                      fill="none"
+                      stroke-width="3"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </p>
+                </div>
+              </a>
+              <a
+                class="relative pl-16 flex flex-col"
+                href="https://github.com/NorthwoodsSoftware/gojs-vue-basic"
+                target="_blank"
+                rel="noopener">
+                <div class="text-lg font-semibold leading-7">
+                  <div
+                    class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center">
+                    <img
+                      class="w-full h-full"
+                      alt="vue"
+                      src="assets/images/fp/vue-icon.svg" />
+                  </div>
+                  Vue
+                </div>
+                <div class="mt-2 flex flex-col flex-auto">
+                  <p class="flex-auto font-normal">
+                    We maintain a Vue 3 integration sample to help speed up your app
+                    development.
+                  </p>
+                  <p
+                    class="flex items-center -ml-3.5 px-3.5 py-2.5 text-sm font-semibold leading-6 text-nwoods-accent hover:text-nwoods-accentHover">
+                    Learn more
+                    <svg
+                      class="w-3 h-3 ml-1.5"
+                      aria-hidden="true"
+                      fill="none"
+                      stroke-width="3"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </p>
+                </div>
+              </a>
+              <a class="relative pl-16 flex flex-col" href="./intro/angular.html">
+                <div class="text-lg font-semibold leading-7">
+                  <div
+                    class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center">
+                    <img
+                      class="w-full h-full"
+                      alt="angular"
+                      src="assets/images/fp/angular-icon.svg" />
+                  </div>
+                  Angular
+                </div>
+                <div class="mt-2 flex flex-col flex-auto">
+                  <p class="flex-auto font-normal">
+                    Use our companion component library, <strong>gojs-angular</strong>, to
+                    get your Angular diagrams up and running.
+                  </p>
+                  <p
+                    class="flex items-center -ml-3.5 px-3.5 py-2.5 text-sm font-semibold leading-6 text-nwoods-accent hover:text-nwoods-accentHover">
+                    Learn more
+                    <svg
+                      class="w-3 h-3 ml-1.5"
+                      aria-hidden="true"
+                      fill="none"
+                      stroke-width="3"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </p>
+                </div>
+              </a>
+              <a class="relative pl-16 flex flex-col" href="./intro/svelte.html">
+                <div class="text-lg font-semibold leading-7">
+                  <div
+                    class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center">
+                    <img
+                      class="w-full h-full"
+                      alt="svelte"
+                      src="assets/images/fp/svelte-icon.svg" />
+                  </div>
+                  Svelte
+                </div>
+                <div class="mt-2 flex flex-col flex-auto">
+                  <p class="flex-auto font-normal">
+                    GoJS can integrate into your Svelte app with just an install and a
+                    div.
+                  </p>
+                  <p
+                    class="flex items-center -ml-3.5 px-3.5 py-2.5 text-sm font-semibold leading-6 text-nwoods-accent hover:text-nwoods-accentHover">
+                    Learn more
+                    <svg
+                      class="w-3 h-3 ml-1.5"
+                      aria-hidden="true"
+                      fill="none"
+                      stroke-width="3"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
